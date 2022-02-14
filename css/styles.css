@@ -1,0 +1,247 @@
+:root {
+  /* Основные шрифты */
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  /* Текст для светлой темы */
+  --accent-dark-txt: #2196f3;
+  --primary-dark-txt: #212121;
+  --secondary-dark-txt: #757575;
+  /* Текст для темной темы */
+  --primary-light-txt: #ffffff;
+  --secondary-light-txt: rgba(255, 255, 255, 0.6);
+  /* Светлый фон */
+  --primary-light-bg: #e5e5e5;
+  --secondary-light-bg: #f5f4fa;
+  /* Темный фон */
+  --primary-dark-bg: #2f303a;
+}
+
+body {
+  font-family: var(--main-font);
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+  color: var(--primary-dark-txt);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.header {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 0.875;
+  letter-spacing: 0.02em;
+
+  color: var(--primary-dark-txt);
+}
+.span {
+  color: var(--primary-dark-txt);
+}
+
+.span-footer {
+  color: var(--primary-light-txt);
+}
+.nav-link {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 0.839;
+  letter-spacing: 0.03em;
+
+  color: var(--accent-dark-txt);
+}
+
+.nav-item-active {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 0.875;
+  letter-spacing: 0.02em;
+
+  color: var(--accent-dark-txt);
+}
+
+.nav-item {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 0.875;
+  letter-spacing: 0.02em;
+
+  color: var(--primary-dark-txt);
+}
+
+.contacts-item {
+  color: var(--secondary-dark-txt);
+}
+
+.contacts-item:hover,
+.contacts-item:focus {
+  cursor: pointer;
+  color: var(--accent-dark-txt);
+}
+
+.contacts-item-footer:hover,
+.contacts-item-footer:focus {
+  cursor: pointer;
+  color: var(--accent-dark-txt);
+}
+
+.nav-item:hover,
+.nav-item:focus {
+  cursor: pointer;
+}
+
+.hero,
+.footer {
+  background-color: var(--primary-dark-bg);
+}
+
+.hero-title {
+  font-family: var(--main-font);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: var(--primary-light-txt);
+}
+
+.hero-button {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: var(--accent-dark-txt);
+  color: var(--primary-light-txt);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #188ce8;
+  color: var(--primary-light-txt);
+}
+
+.button {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: var(--secondary-light-bg);
+  color: var(--primary-dark-txt);
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--accent-dark-txt);
+  color: var(--primary-light-txt);
+}
+
+.subtitle {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.details-text {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-dark-txt);
+}
+
+.team {
+  background-color: var(--secondary-light-bg);
+}
+.title {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 0.875;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-dark-txt);
+}
+
+.team-item {
+  background-color: var(--primary-light-txt);
+}
+.team-name {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 0.842;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-dark-txt);
+}
+
+.team-descr {
+  font-family: var(--main-font);
+  font-size: 16px;
+  line-height: 0.842;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-dark-txt);
+}
+
+.portfolio-title {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--primary-dark-txt);
+}
+.portfolio-text {
+  font-family: var(--main-font);
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+
+  color: var(--secondary-dark-txt);
+}
+
+.footer-address {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-light-txt);
+}
+
+.contacts-item-footer {
+  color: rgba(255, 255, 255, 0.6);
+}
+.portfolio {
+  visibility: hidden;
+}
